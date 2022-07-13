@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+.container{
+  display:flex;
+  flex-direction:column;
+  padding:20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background: #1F2535;
+  color:white;
+  justify-content: space-between;
+  padding:20px 80px 0 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section{
+  display:flex;
+  padding:180px 0 180px 0;
+  justify-content: space-evenly;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerImages{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#imgMenu{
+  width: 30px !important;
+  height: 20px !important;
+}
+.headerContent{
+  width: 50%;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.headerContentH1{
+  font-size: 100px;
+  margin-bottom:0 !important;
+  line-height: 90px;
+}
+.headerContentP{
+  font-size:20px;
+  margin-left:10px;
+  margin-bottom:100px;
+}
+.awesomeButton{
+  color:#1F2535 !important;
+  background-color: white;
+  font-size:20px;
+  padding:25px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+.sectionH1{
+  color:#1F2535 !important;
+  font-size: 32px;
+  margin-top:15px;
+  margin-bottom:0px;
 }
 
-.App-link {
-  color: #61dafb;
+.sectionP{
+  font-size:20px;
+  color:rgb(126, 123, 123);
+  margin-top:5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon5Position1 {
+  opacity: 0.1;
+  display: flex;
+  width: 300px !important;
+  position: absolute;
+  right: 400px;
+}
+.icon5Position2 {
+  opacity: 0.1;
+  display: flex;
+  width: 300px !important;
+  position: absolute;
+  right: 200px;
+}
+.icon5Position3 {
+  opacity: 0.1;
+  display: flex;
+  width: 300px !important;
+  position: absolute;
+  right: 400px;
 }
